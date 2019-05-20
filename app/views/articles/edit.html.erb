@@ -1,0 +1,11 @@
+<%= form_for @article do |form| %>
+    <%= form.label 'My edit' %><br>
+    <%= form.text_field :title %><br>
+
+    <%= form.label 'My Article Description' %><br>
+    <%= form.text_area :description %><br>
+
+    <%= form.submit "Submit Article" %><br>
+<% end %>
+
+
