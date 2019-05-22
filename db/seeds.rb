@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+
+Article.destroy_all
+
+article1 = Article.create(:title => "Until Tomorrow", :description => "Never give it up")
+article2 = Article.create(:title => "Today and forever more", :description => "Always stay open")
